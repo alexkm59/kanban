@@ -1,3 +1,4 @@
+
 function Cards() {
   return (
     <div className="cards__item">
@@ -45,7 +46,9 @@ function Cards() {
           </div>
         </div>
       </div>
+      
     </div>
-  );
+   
+);
 }
 export default Cards;

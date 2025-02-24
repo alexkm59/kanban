@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Column from "./components/Column/Column";
 import AccountExit from "./components/Account/AccountExit";
 import CreateTask from "./components/Task/CreateTask";
+import ViewTask from "./components/Task/ViewTask";
 function App() {
   // const [count, setCount] = useState(0)
   const statusList = [
@@ -22,6 +23,7 @@ function App() {
         {/* !-- pop-up start--> */}
         <AccountExit />
         <CreateTask />
+        <ViewTask/>
         {/* <!-- pop-up end--> */}
 
         <Header />
